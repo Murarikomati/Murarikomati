@@ -82,8 +82,7 @@ A modern **ELT analytics platform** built using industry best practices:
 analytics engineering · data modeling · ELT architecture · data quality governance  
 
 ➡️ **Repository:**  
-https://github.com/Murarikomati/movie-elt-project  
-
+https://github.com/Murarikomati/Netflix_Data_Analysis-
 ---
 
 ### 🔹 Agentic AI Workflow Automation
