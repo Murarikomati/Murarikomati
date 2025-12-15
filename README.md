@@ -13,7 +13,7 @@ I focus on **production reliability, performance optimization, and enterprise-gr
 - **Cloud Data Engineering:** Azure, GCP, AWS  
 - **Batch & Streaming Pipelines:** Azure Data Factory, Databricks, Kafka, Spark Structured Streaming  
 - **Data Architecture & Modeling:** Medallion Architecture (Bronze/Silver/Gold), Delta Lake, Delta Live Tables  
-- **Analytics Enablement:** BigQuery, Synapse, curated Gold-layer datasets, BI-ready models  
+- **Analytics Enablement:** BigQuery, Synapse, Snowflake, curated Gold-layer datasets  
 - **Data Quality & Reliability:** Assertions, validations, incremental processing frameworks  
 - **GenAI for Data Platforms:** RAG pipelines, schema-aware SQL generation, agentic workflows  
 - **CI/CD & Automation:** GitHub Actions, Terraform, environment promotion pipelines  
@@ -22,29 +22,69 @@ I focus on **production reliability, performance optimization, and enterprise-gr
 
 ## 🧰 Technology Stack
 
-### Languages
+### Languages  
 Python · SQL · PySpark · Scala  
 
-### Cloud & Platforms
+### Cloud & Platforms  
 - **Azure:** Databricks, Azure Data Factory, Synapse Analytics, ADLS Gen2  
 - **GCP:** BigQuery, Dataform  
-- **AWS:** Glue, S3 (project-based)
+- **AWS:** S3, Glue (project-based)
 
-### Big Data & Streaming
+### Big Data & Streaming  
 Apache Spark · Delta Lake · Kafka · Delta Live Tables  
 
-### GenAI & ML
+### GenAI & ML  
 LangChain · CrewAI · OpenAI APIs · FAISS · Chroma · MLflow  
 
-### DevOps & Tooling
+### DevOps & Tooling  
 Git · GitHub Actions · Terraform · Docker · CI/CD  
 
-### Analytics & Visualization
-Power BI · Streamlit  
+### Analytics & Visualization  
+Power BI · Tableau · Looker Studio · Streamlit  
 
 ---
 
 ## 🚀 Featured Projects (Production-Oriented)
+
+### 🔹 Wiki → Azure Data Lake Pipeline (Airflow + Databricks)
+**Tech:** Apache Airflow · Python · Azure Data Lake Gen2 · Databricks · Docker  
+
+A production-style data engineering pipeline that:
+- Crawls structured data from **Wikipedia**
+- Orchestrates ingestion using **Apache Airflow DAGs**
+- Stores raw and processed data in **Azure Data Lake Gen2**
+- Enables scalable processing using **Databricks / Spark**
+- Runs in a **Dockerized environment** for reproducibility
+
+**Demonstrates:**  
+workflow orchestration · cloud data lakes · Spark-based processing · production-ready structure  
+
+➡️ **Repository:**  
+https://github.com/Murarikomati/wiki-to-azure-lake-pipeline  
+
+---
+
+### 🔹 Movie Data ELT Platform (AWS S3 + Snowflake + dbt)
+**Tech:** Amazon S3 · Snowflake · dbt · SQL  
+
+A modern **ELT analytics platform** built using industry best practices:
+- Raw CSV data ingested into **Amazon S3**
+- High-performance loading into **Snowflake RAW schema**
+- Transformations built with **dbt** using layered models:
+  - Raw
+  - Staging (`stg_*`)
+  - Dimensional models (Facts & Dimensions)
+- **Kimball-style star schema**
+- **SCD Type 2** implemented via dbt snapshots
+- Built-in **data quality tests** (`not_null`, `unique`, `relationships`)
+
+**Demonstrates:**  
+analytics engineering · data modeling · ELT architecture · data quality governance  
+
+➡️ **Repository:**  
+https://github.com/Murarikomati/movie-elt-project  
+
+---
 
 ### 🔹 Agentic AI Workflow Automation
 **Tech:** LangChain · CrewAI · OpenAI · Selenium  
@@ -68,22 +108,6 @@ https://github.com/Murarikomati/Customer-Service-RAG-chatbot
 
 ---
 
-<!--
-### 🔹 DLT-Based ETL Pipeline with SAP Integration
-**Tech:** PySpark · Delta Lake · Databricks · SAP  
-
-Real-time data validation and transformation pipeline built using Delta Live Tables, integrating upstream SAP data and enforcing business rules at scale.
-
-### 🔹 Medallion Architecture Streaming Framework
-**Tech:** Kafka · Spark · Delta Lake · Azure Data Factory  
-
-End-to-end streaming framework implementing Bronze/Silver/Gold layers with incremental processing, checkpointing, and analytics-ready outputs.
--->
-
-📌 *Additional repositories focus on cloud ETL migrations, real-time streaming pipelines, data quality frameworks, and analytics platform enablement.*
-
----
-
 ## 🏗️ Engineering Practices I Follow
 
 - Clear **problem definition & architecture documentation**
@@ -98,11 +122,11 @@ End-to-end streaming framework implementing Bronze/Silver/Gold layers with incre
 
 ## 📈 What Recruiters Will See in My GitHub
 
-- Real-world **data engineering problems**, not toy examples  
-- **Enterprise-grade README documentation**  
-- Cloud-native architecture patterns  
-- Scalable batch and streaming pipelines  
-- Clean commit history with meaningful changes  
+- Real-world **data engineering systems**, not toy demos  
+- End-to-end pipelines (ingestion → processing → analytics)  
+- Enterprise-grade documentation  
+- Cloud-native and scalable architectures  
+- Clean, meaningful commit history  
 
 ---
 
@@ -115,7 +139,7 @@ End-to-end streaming framework implementing Bronze/Silver/Gold layers with incre
 ---
 
 ### 🔍 Recruiter Note
-If you’re hiring for **Data Engineer / Cloud Data Engineer / Streaming Engineer** roles involving **Azure, GCP, Databricks, Spark, Kafka, or analytics platforms**, feel free to reach out.
+If you’re hiring for **Data Engineer / Cloud Data Engineer / Analytics Engineer / Streaming Engineer** roles involving **Airflow, Databricks, Spark, Snowflake, Azure, or AWS**, feel free to reach out.
 
 ---
 
