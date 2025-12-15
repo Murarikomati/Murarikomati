@@ -134,7 +134,7 @@ https://github.com/Murarikomati/Customer-Service-RAG-chatbot
 
 - 🔗 **LinkedIn:** https://linkedin.com/in/komati-murari  
 - 📧 **Email:** komatimurari1@gmail.com  
-- 📄 **Resume:** https://tinyurl.com/murari-Resume  
+- 📄 **Resume:** [https://tinyurl.com/murari-Resume  ](https://tinyurl.com/MikeDE-resume)
 
 ---
 
